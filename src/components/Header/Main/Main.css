@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+
+.main_description p,
+.main_description span {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 55px;
+}
+
+.main_description_color {
+  color: #fe5b46;
+}
+
+.main_image img {
+  width: 300px;
+  height: auto;
+}

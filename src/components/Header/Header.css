@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: #1e1e1e;
+  padding: 20px;
+}
+
+.nav_menu {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.nav_item {
+  margin: 0 25px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  color: #c4c2c2;
+}
+
+.menu_cv {
+  border: 1px solid #fe5b46;
+  padding: 15px 20px;
+  background: #fe5b46;
+  border-radius: 5px;
+}

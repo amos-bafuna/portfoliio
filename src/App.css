@@ -13,18 +13,22 @@ body {
 }
 
 .container {
-  background: #1e1e1e;
   max-width: 920px;
   margin: auto;
 }
 
 .header_main {
   height: 100vh;
+  background: #1e1e1e;
   position: relative;
 }
 
-.wave_main img {
+.wave img {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+.services_section {
+  position: relative;
 }

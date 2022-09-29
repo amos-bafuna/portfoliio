@@ -1,7 +1,10 @@
 .about {
-  display: flex;
   background: #262626;
   padding: 40px;
+}
+
+.about_container {
+  display: flex;
 }
 
 .about_img img {

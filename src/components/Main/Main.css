@@ -1,7 +1,10 @@
 .main {
+  padding: 10px 40px;
+}
+
+.main_container {
   display: flex;
   justify-content: space-between;
-  padding: 10px 40px;
 }
 
 .main_description p,

@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import Wavemain from "../src/img/wavemain.png";
 import Main from "./components/Header/Main/Main";
+import About from "./components/Header/About/About";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <img src={Wavemain} alt="" />
         </div>
       </div>
+      <About />
     </div>
   );
 }

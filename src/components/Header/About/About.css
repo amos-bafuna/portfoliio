@@ -1,0 +1,51 @@
+.about {
+  display: flex;
+  background: #262626;
+  padding: 40px;
+}
+
+.about_img img {
+  width: 300px;
+  height: auto;
+}
+
+.about_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.about_contact {
+  padding-bottom: 10px;
+}
+
+.about_title {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Roboto";
+  margin-bottom: 10px;
+}
+
+.about_description {
+  color: #fe5b46;
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.about_paragraph p {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 18px;
+  color: #afaaaa;
+}
+
+.about_cv span {
+  background: #fe5b46;
+  border: 1px solid #fe5b46;
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-family: "Roboto";
+  color: #fff;
+}

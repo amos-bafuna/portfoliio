@@ -19,3 +19,26 @@
   width: 300px;
   height: auto;
 }
+
+.contact_me div {
+  border: 1px solid #fe5b46;
+  width: 140px;
+  padding: 10px 20px;
+  font-weight: 300;
+  color: #fe5b46;
+  transition: all 300ms ease-in-out;
+}
+
+.contact_me div:hover {
+  background: #fe5b46;
+  color: #fff;
+}
+
+.main_social {
+  text-align: center;
+}
+
+.main_social span {
+  margin: 0 10px;
+  font-size: 25px;
+}

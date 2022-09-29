@@ -41,11 +41,16 @@
   color: #afaaaa;
 }
 
+.about_cv {
+  margin-bottom: 20px;
+}
+
 .about_cv span {
   background: #fe5b46;
   border: 1px solid #fe5b46;
   border-radius: 5px;
   padding: 15px 25px;
-  font-family: "Roboto";
+  font-family: "Poppins";
+  font-weight: 400;
   color: #fff;
 }

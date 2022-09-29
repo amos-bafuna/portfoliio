@@ -1,6 +1,6 @@
 import React from "react";
 import "./Main.css";
-import MainImg from "../../../img/Background1.png";
+import MainImg from "../../img/Background1.png";
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";

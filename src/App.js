@@ -1,8 +1,8 @@
 import "./App.css";
 import Header from "./components/Header/Header";
 import Wavemain from "../src/img/wavemain.png";
-import Main from "./components/Header/Main/Main";
-import About from "./components/Header/About/About";
+import Main from "./components/Main/Main";
+import About from "./components/About/About";
 
 function App() {
   return (

@@ -1,5 +1,6 @@
 import React from 'react';
 import CV from '../../img/AmosBafunaCV.pdf';
+import { Link } from 'react-scroll';
 import './Header.css';
 
 function Header() {
@@ -7,18 +8,50 @@ function Header() {
     <div className="header">
       <div className="container header_container">
         <nav className="nav_menu">
-          <a href="/" className="nav_item active">
+          <Link
+            className="nav_item"
+            activeClass="active"
+            to="Home"
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration={700}
+          >
             Home
-          </a>
-          <a href="#About" className="nav_item">
+          </Link>
+          <Link
+            className="nav_item"
+            activeClass="active"
+            to="About"
+            spy={true}
+            smooth={true}
+            offset={-200}
+            duration={700}
+          >
             About
-          </a>
-          <a href="#Services" className="nav_item">
+          </Link>
+          <Link
+            className="nav_item"
+            activeClass="active"
+            to="Services"
+            spy={true}
+            smooth={true}
+            offset={-150}
+            duration={700}
+          >
             Services
-          </a>
-          <a href="#Contact" className="nav_item">
+          </Link>
+          <Link
+            className="nav_item"
+            activeClass="active"
+            to="Contact"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={700}
+          >
             Contact
-          </a>
+          </Link>
         </nav>
 
         <a href={CV} className="menu_cv">

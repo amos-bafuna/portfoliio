@@ -9,7 +9,7 @@ import './Contact.css';
 
 function Contact() {
   return (
-    <div className="contact" id="Contact">
+    <section className="contact" id="Contact">
       <div className="container">
         <div className="contact_container">
           <div className="contact_info">
@@ -91,7 +91,7 @@ function Contact() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

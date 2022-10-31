@@ -4,7 +4,7 @@ import './About.css';
 
 function About() {
   return (
-    <div className="about" id="About">
+    <section className="about" id="About">
       <div className="container about_container">
         <div className="about_img">
           <img src={AboutImg} alt="" />
@@ -31,7 +31,7 @@ function About() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

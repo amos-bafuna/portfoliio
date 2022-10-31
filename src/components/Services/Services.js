@@ -6,7 +6,7 @@ import './Services.css';
 
 function Services() {
   return (
-    <div className="services" id="Services">
+    <section className="services" id="Services">
       <div className="container">
         <div className="services_container">
           <div className="services_title">My services</div>
@@ -34,7 +34,7 @@ function Services() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

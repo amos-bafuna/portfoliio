@@ -7,8 +7,8 @@ import { BsFacebook } from 'react-icons/bs';
 
 function Main() {
   return (
-    <div>
-      <div className="main">
+    <section id="Home">
+      <section className="main">
         <div className="container main_container">
           <div className="main_description">
             <p>
@@ -45,8 +45,8 @@ function Main() {
             </a>
           </span>
         </div>
-      </div>
-    </div>
+      </section>
+    </section>
   );
 }
 

@@ -59,7 +59,7 @@ function Contact() {
             <form action="#">
               <div className="form-control">
                 <input
-                  className="inputName"
+                  className="input"
                   type="text"
                   name="name"
                   id=""
@@ -69,7 +69,7 @@ function Contact() {
 
               <div className="form-control">
                 <input
-                  className="inputEmail"
+                  className="input"
                   type="text"
                   name="email"
                   id=""
@@ -78,7 +78,7 @@ function Contact() {
               </div>
 
               <div className="form-control">
-                <input
+                <textarea
                   className="inputMessage"
                   type="text"
                   name="message"
@@ -86,7 +86,7 @@ function Contact() {
                   placeholder="Your Message"
                 />
               </div>
-              <button>Submit</button>
+              <button className="submit_btn">Submit</button>
             </form>
           </div>
         </div>

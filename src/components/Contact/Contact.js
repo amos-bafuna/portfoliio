@@ -9,7 +9,7 @@ import './Contact.css';
 
 function Contact() {
   return (
-    <div className="contact">
+    <div className="contact" id="Contact">
       <div className="container">
         <div className="contact_container">
           <div className="contact_info">
@@ -34,7 +34,7 @@ function Contact() {
                 <span className="contact_detail_icon">
                   <BsGlobe />
                 </span>
-                www.amosbafuna.vercel.com
+                amosbafuna.vercel.app
               </div>
             </div>
             <div className="contact_info_social">

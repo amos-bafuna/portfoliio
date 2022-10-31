@@ -20,9 +20,9 @@ function Main() {
             <div className="main_description_detail">
               Front End & Back End developer | UI & UX Designer
             </div>
-            <div className="contact_me">
+            <a href="#Contact" className="contact_me">
               <div>Contact Me</div>
-            </div>
+            </a>
           </div>
           <div className="main_image">
             <img src={MainImg} alt="" />

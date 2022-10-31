@@ -33,7 +33,12 @@
   height: auto;
 }
 
+.contact_me {
+  text-decoration: none;
+}
+
 .contact_me div {
+  display: block;
   border: 1px solid #fe5b46;
   width: 140px;
   padding: 10px 20px;

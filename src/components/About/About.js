@@ -1,10 +1,10 @@
-import React from "react";
-import AboutImg from "../../img/about_me_img.png";
-import "./About.css";
+import React from 'react';
+import AboutImg from '../../img/about_me_img.png';
+import './About.css';
 
 function About() {
   return (
-    <div className="about">
+    <div className="about" id="About">
       <div className="container about_container">
         <div className="about_img">
           <img src={AboutImg} alt="" />

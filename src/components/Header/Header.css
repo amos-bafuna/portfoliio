@@ -23,6 +23,7 @@
   font-weight: 400;
   color: #c4c2c2;
   transition: all 300ms ease-out;
+  text-decoration: none;
 }
 
 .nav_item:first-child {
@@ -45,6 +46,7 @@
   padding: 10px 20px;
   background: #fe5b46;
   border-radius: 5px;
+  text-decoration: none;
   transition: all 300ms ease-in-out;
 }
 

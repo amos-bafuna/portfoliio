@@ -6,6 +6,7 @@ import Main from './components/Main/Main';
 import About from './components/About/About';
 import Services from './components/Services/Services';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
       </div>
       <div className="contact_section">
         <Contact />
+      </div>
+      <div className="footer_section">
+        <Footer />
       </div>
     </div>
   );

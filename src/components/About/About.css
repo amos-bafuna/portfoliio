@@ -26,19 +26,19 @@
 .about_title {
   font-size: 30px;
   font-weight: 400;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   margin-bottom: 10px;
 }
 
 .about_description {
   color: #fe5b46;
   font-size: 18px;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: 400;
 }
 
 .about_paragraph p {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: 300;
   font-size: 18px;
   color: #afaaaa;
@@ -53,7 +53,13 @@
   border: 1px solid #fe5b46;
   border-radius: 5px;
   padding: 15px 25px;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-weight: 400;
   color: #fff;
+  transition: all 300ms ease-out;
+}
+
+.about_cv span:hover {
+  cursor: pointer;
+  background: none;
 }

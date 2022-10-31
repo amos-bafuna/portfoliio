@@ -5,17 +5,27 @@
 .main_container {
   display: flex;
   justify-content: space-between;
+  margin-top: 80px;
 }
 
 .main_description p,
 .main_description span {
-  font-family: "Roboto";
-  font-weight: 300;
+  margin-bottom: 0;
+  font-family: 'Roboto';
+  font-weight: 400;
   font-size: 55px;
 }
 
 .main_description_color {
   color: #fe5b46;
+}
+
+.main_description_detail {
+  font-family: 'Poppins';
+  margin-bottom: 40px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-size: 12px;
 }
 
 .main_image img {
@@ -29,10 +39,11 @@
   padding: 10px 20px;
   font-weight: 300;
   color: #fe5b46;
-  transition: all 300ms ease-in-out;
+  transition: all 400ms ease-out;
 }
 
 .contact_me div:hover {
+  cursor: pointer;
   background: #fe5b46;
   color: #fff;
 }
@@ -44,4 +55,10 @@
 .main_social span {
   margin: 0 10px;
   font-size: 25px;
+  transition: all 300ms ease-out;
+}
+
+.main_social span:hover {
+  cursor: pointer;
+  opacity: 0.3;
 }

@@ -1,0 +1,58 @@
+.contact {
+  height: 100vh;
+  background: #fe5b46;
+}
+
+.contact_container {
+  display: flex;
+  padding: 80px 20px 0;
+}
+
+.contact_info {
+  width: 40%;
+}
+
+.contact_info p {
+  font-size: 30px;
+}
+
+.contact_color {
+  color: #000;
+}
+
+.contact_info_detail div {
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+.contact_detail_icon {
+  margin-right: 10px;
+  text-align: center;
+}
+
+.contact_info_social {
+  display: flex;
+  margin-top: 30px;
+}
+
+.contact_info_social div {
+  padding-right: 20px;
+  font-size: 30px;
+  transition: all 300ms ease-out;
+}
+
+.contact_info_social div:hover {
+  opacity: 0.7;
+}
+
+.contact_info_social div path {
+  color: #000;
+}
+
+.contact_form {
+  width: 60%;
+  margin-top: 20px;
+  padding: 20px;
+  box-shadow: -1px 0px 8px 1px rgba(0, 0, 0, 0.54);
+  border-radius: 15px;
+}

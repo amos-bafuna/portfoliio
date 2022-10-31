@@ -1,9 +1,9 @@
-import React from "react";
-import "./Main.css";
-import MainImg from "../../img/Background1.png";
-import { BsGithub } from "react-icons/bs";
-import { BsLinkedin } from "react-icons/bs";
-import { BsFacebook } from "react-icons/bs";
+import React from 'react';
+import './Main.css';
+import MainImg from '../../img/Background1.png';
+import { BsGithub } from 'react-icons/bs';
+import { BsLinkedin } from 'react-icons/bs';
+import { BsFacebook } from 'react-icons/bs';
 
 function Main() {
   return (
@@ -17,6 +17,9 @@ function Main() {
               I'm <span className="main_description_color">Amos</span>,<br />A
               <span className="main_description_color"> web developer</span>.
             </p>
+            <div className="main_description_detail">
+              Front End & Back End developer | UI & UX Designer
+            </div>
             <div className="contact_me">
               <div>Contact Me</div>
             </div>
@@ -27,13 +30,19 @@ function Main() {
         </div>
         <div className="main_social">
           <span>
-            <BsGithub />
+            <a href="https://github.com/amos-bafuna">
+              <BsGithub />
+            </a>
           </span>
           <span>
-            <BsLinkedin />
+            <a href="https://www.linkedin.com/in/amos-bafuna-3057a723b/">
+              <BsLinkedin />
+            </a>
           </span>
           <span>
-            <BsFacebook />
+            <a href="https://web.facebook.com/amos.bafuna">
+              <BsFacebook />
+            </a>
           </span>
         </div>
       </div>

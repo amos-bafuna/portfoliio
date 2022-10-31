@@ -1,10 +1,11 @@
-import "./App.css";
-import Header from "./components/Header/Header";
-import Wavemain from "../src/img/wavemain.png";
-import formWave from "../src/img/form_wave.png";
-import Main from "./components/Main/Main";
-import About from "./components/About/About";
-import Services from "./components/Services/Services";
+import './App.css';
+import Header from './components/Header/Header';
+import Wavemain from '../src/img/wavemain.png';
+import formWave from '../src/img/form_wave.png';
+import Main from './components/Main/Main';
+import About from './components/About/About';
+import Services from './components/Services/Services';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
         <div className="wave">
           <img src={formWave} alt="" />
         </div>
+      </div>
+      <div className="contact_section">
+        <Contact />
       </div>
     </div>
   );

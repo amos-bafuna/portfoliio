@@ -25,7 +25,7 @@ function Header() {
             to="About"
             spy={true}
             smooth={true}
-            offset={-200}
+            offset={-250}
             duration={700}
           >
             About
